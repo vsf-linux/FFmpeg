@@ -23,7 +23,9 @@
 #ifndef AVDEVICE_FBDEV_COMMON_H
 #define AVDEVICE_FBDEV_COMMON_H
 
+#ifndef __VSF__
 #include <features.h>
+#endif
 #include <linux/fb.h>
 #include "libavutil/pixfmt.h"
 
